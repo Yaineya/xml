@@ -30,12 +30,59 @@ git push
     <expected_salary>5000$</expected_salary>
 </root>
 
-28. Отправить изменения на внешний репозиторий.
-29. Создать файл preferences.xml
-30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
-31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
-32. Сделать коммит в одну строку.
-33. Отправить сразу 2 файла на внешний репозиторий.
+8. Отправить изменения на внешний репозиторий
+git add new.xml
+git commit -m "continious"
+git push
+
+9. Создать файл preferences.xml - OK
+
+10. В файл preferences.xml добавить информацию о своих предпочтениях 
+(Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+<?xml version="1.0" encoding="UTF-8"?>
+<root>  
+    <film>Back to the future</>
+    <film>La-la land</>
+    <tv_show>silicon valley</tv_show>
+    <food>окрошка</food>
+    <season>summer</season>
+    <country_for_visit>USA</country_for_visit>
+</root>
+
+11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <hard_skills>
+    <skill>Jira</skill>
+    <skill>Postman</skill>
+    <skill>Jmeter</skill>
+    <skill>SQL</skill>
+    <skill>API</skill>
+    <skill>Google docs</skill>
+    <skill>Smoke, Critical path и Extended testing</skill>
+    <skill>web</skill>
+    <skill>mobile</skill>
+    <skill>test design</skill>
+    <skill>retest</skill>
+    <skill>smoke</skill>
+    <skill>regression</skill>
+    <skill>JS</skill>
+    <skill>HTML</skill>
+    <skill>CSS</skill>
+  </hard_skills>
+  <soft_skills>
+    <skill>team player</skill>
+    <skill>work autonomously</skill>
+    <skill>international team</skill>
+  </soft_skills>
+</root>
+
+12. Сделать коммит в одну строку - OK
+13. Отправить сразу 2 файла на внешний репозиторий - OK
+git add preference.xml sklls.xml
+git commit -m "new lessons"
+git push
+
 34. На веб интерфейсе создать файл bug_report.xml.
 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
