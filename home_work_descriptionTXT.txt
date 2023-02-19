@@ -1,0 +1,90 @@
+XML
+
+1. Создать внешний репозиторий c названием XML - OK
+
+2. Клонировать репозиторий XML на локальный компьютер
+git clone https://github.com/Yaineya/xml.git
+
+3. Внутри локального XML создать файл “new.xml”
+touch new.xml
+
+4. Добавить файл под гит
+git add new.xml 
+
+5. Закоммитить файл
+git commit -m "xml start"
+
+6. Отправить файл на внешний GitHub репозиторий.
+git push
+
+7. Отредактировать содержание файла “new.xml” - написать информацию о себе 
+(ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
+Всё написать в формате XML.
+<?xml version="1.0" encoding="UTF-8"?>
+<root>  
+    <name>Evgeniy</name>
+    <age>38</age>
+    <pet>
+        <dog>banksy</dog>
+    </pet>
+    <expected_salary>5000$</expected_salary>
+</root>
+
+8. Отправить изменения на внешний репозиторий
+git add new.xml
+git commit -m "continious"
+git push
+
+9. Создать файл preferences.xml - OK
+
+10. В файл preferences.xml добавить информацию о своих предпочтениях 
+(Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+<?xml version="1.0" encoding="UTF-8"?>
+<root>  
+    <film>Back to the future</>
+    <film>La-la land</>
+    <tv_show>silicon valley</tv_show>
+    <food>окрошка</food>
+    <season>summer</season>
+    <country_for_visit>USA</country_for_visit>
+</root>
+
+11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <hard_skills>
+    <skill>Jira</skill>
+    <skill>Postman</skill>
+    <skill>Jmeter</skill>
+    <skill>SQL</skill>
+    <skill>API</skill>
+    <skill>Google docs</skill>
+    <skill>Smoke, Critical path и Extended testing</skill>
+    <skill>web</skill>
+    <skill>mobile</skill>
+    <skill>test design</skill>
+    <skill>retest</skill>
+    <skill>smoke</skill>
+    <skill>regression</skill>
+    <skill>JS</skill>
+    <skill>HTML</skill>
+    <skill>CSS</skill>
+  </hard_skills>
+  <soft_skills>
+    <skill>team player</skill>
+    <skill>work autonomously</skill>
+    <skill>international team</skill>
+  </soft_skills>
+</root>
+
+12. Сделать коммит в одну строку - OK
+13. Отправить сразу 2 файла на внешний репозиторий - OK
+git add preference.xml sklls.xml
+git commit -m "new lessons"
+git push
+
+34. На веб интерфейсе создать файл bug_report.xml.
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+38. Синхронизировать внешний и локальный репозиторий XML
