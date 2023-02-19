@@ -83,8 +83,24 @@ git add preference.xml sklls.xml
 git commit -m "new lessons"
 git push
 
-34. На веб интерфейсе создать файл bug_report.xml.
-35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
-37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-38. Синхронизировать внешний и локальный репозиторий XML
+34. На веб интерфейсе создать файл bug_report.xml - OK
+
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе - OK
+
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <Id>3</Id>
+  <Title>Присутствует не активный элемент в виде блока в верхнем правом углу главной страницы</Title>
+  <Precondition>Приложение запущено</Precondition>
+  <Steps>1.Зайти на главную страницу с настройками виджетов</Steps>
+  <Actual_result>В верхнем правом углу отображается не активный элемент верстки</Actual_result>
+  <Expected_result>Элемент отсутствует, либо имеет функционал согласно документации</Expected_result>
+  <Severity>Minor</Severity>
+  <Priority>Low</Priority>
+  <attachment>https://drive.google.com/file/d/1v9T7HdONuqA03S-6GEnIZhBen6WYhA9H/view?usp=sharing</attachment>
+</root>
+
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе - OK
+
+38. Синхронизировать внешний и локальный репозиторий XML - OK
