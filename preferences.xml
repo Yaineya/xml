@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>  
+    <films>
+      <film>Back to the future</>
+      <film>La-la land</>
+    </films>
+    <tv_show>silicon valley</tv_show>
+    <food>окрошка</food>
+    <season>summer</season>
+    <country_for_visit>USA</country_for_visit>
+</root>
