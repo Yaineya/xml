@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>  
+    <name>Evgeniy</name>
+    <age>38</age>
+    <pet>
+        <dog>banksy</dog>
+    </pet>
+    <expected_salary>5000$</expected_salary>
+</root>
